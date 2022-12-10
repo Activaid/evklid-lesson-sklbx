@@ -26,7 +26,7 @@
 Javascript, HTML, CSS
 
 Ссылка на страницу проекта
-https://activaid.github.io//
+https://activaid.github.io/evklid-lesson-sklbx/
 
 Темы, изученные при работе над проектом
 Продвинутый CSS
