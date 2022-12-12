@@ -1,0 +1,24 @@
+@media (max-width: 1920px) {
+  .burger {
+    position: relative;
+    width: 30px;
+    height: 23px;
+  }
+
+  .burger__line {
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 3px;
+    background-color: var(--color-black);
+    transform: translateX(-50%);
+  }
+
+  .burger__line:first-child {
+    top: 3px;
+  }
+
+  .burger__line:last-child {
+    bottom: 1px;
+  }
+}
