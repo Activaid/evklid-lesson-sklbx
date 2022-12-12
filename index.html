@@ -6,6 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Евклид</title>
+  <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font">
+  <link rel="preload" href="fonts/Montserrat-Medium.woff2" as="font">
+  <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font">
+  <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font">
+  <link rel="preload" href="fonts/Montserrat-ExtraBold.woff2" as="font">
   <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/swiper.min.css">
@@ -91,9 +96,9 @@
         <div class="hero__content">
           <div class="swiper hero__swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide slide slide-1"></div>
-              <div class="swiper-slide slide slide-2"></div>
-              <div class="swiper-slide slide slide-3"></div>
+              <div class="swiper-slide slide slide-1 webp-true"></div>
+              <div class="swiper-slide slide slide-2 webp-true"></div>
+              <div class="swiper-slide slide slide-3 webp-true"></div>
             </div>
             <div class="swiper-pagination hero__pagination"></div>
           </div>
@@ -121,7 +126,7 @@
           что
           высококачественный прототип будущего проекта способствует повышению качества экспериментов.</p>
         <div class="block about__blocks">
-          <div class="block__left">
+          <div class="block__left webp-true">
             <div class="dark">
               <div class="dark__content">
                 <p class="dark__desc">Принимая во&nbsp;внимание показатели успешности, перспективное планирование
@@ -173,7 +178,7 @@
             </li>
           </ul>
           <div class="how__content step">
-            <div class="step__text step__text--active step-one" data-target="one">
+            <div class="step__text step__text--active step-one webp-true" data-target="one">
               <h3 class="step__title">Проводим консультацию</h3>
               <p class="step__descr">Влечёт за&nbsp;собой процесс внедрения и&nbsp;модернизации приоритизации разума над
                 эмоциями. В&nbsp;рамках спецификации современных стандартов, некоторые особенности внутренней политики
@@ -188,7 +193,7 @@
                 конкретные выводы, разумеется, призваны к&nbsp;ответу.
               </p>
             </div>
-            <div class="step__text step-two" data-target="two">
+            <div class="step__text step-two webp-true" data-target="two">
               <h3 class="step__title">Составляем смету</h3>
               <p class="step__descr">Внедрения и&nbsp;модернизации приоритизации разума над эмоциями. В&nbsp;рамках
                 спецификации современных стандартов, некоторые особенности внутренней политики будут объективно
@@ -198,7 +203,7 @@
                 целой серии независимых исследований.
               </p>
             </div>
-            <div class="step__text step-three" data-target="three">
+            <div class="step__text step-three webp-true" data-target="three">
               <h3 class="step__title">Привлекаем подрядчиков</h3>
               <p class="step__descr">Идейные соображения высшего порядка, а&nbsp;также новая модель организационной
                 деятельности требует анализа прогресса профессионального сообщества. Высокий уровень вовлечения
@@ -210,7 +215,7 @@
                 задания по&nbsp;разработке прогресса профессионального сообщества.
               </p>
             </div>
-            <div class="step__text step-four" data-target="four">
+            <div class="step__text step-four webp-true" data-target="four">
               <h3 class="step__title">Инспектируем все этапы работ</h3>
               <p class="step__descr">Высокий уровень вовлечения представителей целевой аудитории является чётким
                 доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит
@@ -375,7 +380,7 @@
   <footer class="footer">
     <div class="container footer__container">
       <div class="footer__left">
-        <a class="footer__logo-link" href="#"><img class="footer__logo" src="img/logo-light.svg"
+        <a class="footer__logo-link" href="#"><img class="lazyload footer__logo" data-src="img/logo-light.svg"
             alt="Логотип Евклид"></a>
         <nav class="footer__nav">
           <ul class="footer__links">
@@ -452,10 +457,10 @@
       </div>
     </div>
   </footer>
-  <script src="js/swiper.min.js"></script>
-  <script src="js/accordion.min.js"></script>
-  <script src="js/slider.js"></script>
-  <script src="js/script.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+  <script defer src="js/swiper.min.js"></script>
+  <script defer src="js/accordion.min.js"></script>
+  <script defer src="js/script.js"></script>
 </body>
 
 </html>
